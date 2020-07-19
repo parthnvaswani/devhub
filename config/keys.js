@@ -1,4 +1,6 @@
-module.exports = {
-  mongoURI: 'mongodb+srv://parth:devhub2000@cluster0.skidw.mongodb.net/devhub?retryWrites=true&w=majority',
-  secretOrKey: 'secret'
-};
+if(process.env.NODE_ENV==='production'){
+  module.exports=require('./keys_prod')
+}
+else {
+  module.exports = require('./keys_dev')
+}
