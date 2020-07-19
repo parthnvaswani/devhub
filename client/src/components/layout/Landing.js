@@ -13,7 +13,7 @@ class Landing extends Component {
         speed2 = 80,
         i = 0,
         index = 0;
-      let text = ["of Developers", "by Developers", "for developers"]
+      let text = ["of Developers", "by Developers", "for Developers"]
       let span = document.querySelector('.written span')
       write()
 
