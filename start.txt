@@ -1,0 +1,9 @@
+start dev environment:-
+
+
+open cmd and run following:
+>npm install
+>npm run client-install
+>npm run fix
+>npm run dev
+

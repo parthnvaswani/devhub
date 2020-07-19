@@ -1,0 +1,77 @@
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+
+.home {
+  height: 78vh;
+  max-width: 80vw;
+  width: 80vw;
+  min-width: 100px;
+  margin: auto;
+  display: flex;
+}
+
+.home img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  min-width: 550px;
+}
+
+.desc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.desc .breif {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+.written {
+  margin-top: 8vh;
+  display: block;
+  font-size: large;
+}
+
+.written span {
+  border-right: 2px solid black;
+}
+
+@media screen and (max-width: 750px) {
+  .home {
+    flex-direction: column;
+  }
+}
