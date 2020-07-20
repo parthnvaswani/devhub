@@ -47,6 +47,8 @@ router.get('/all', (req, res) => {
   const errors = {};
 
   Profile.find()
+    .limit(30)
+    .sort({date:-1})
     .populate('user', ['name', 'avatar'])
     .then(profiles => {
       if (!profiles) {
