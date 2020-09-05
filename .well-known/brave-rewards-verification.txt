@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: my-dev-hub.herokuapp.com
-Token: 6bda0e6c293995f49c95feef780742c5312e357377b8568044fcf96fc775851c
