@@ -1,15 +1,54 @@
 {
   "short_name": "DevHub",
-  "name": "A community for developers",
+  "name": "DevHub: A community for developers",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64 32x32 24x24 16x16 44x44 48x48 50x50",
       "type": "image/x-icon"
+    },
+    {
+      "src": "./icons/tile310x310.png",
+      "sizes": "300x300 310x310",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/tile150x150.png",
+      "sizes": "150x150 144x144 152x152 120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/tile70x70.png",
+      "sizes": "88x88 96x96 72x72 70x70 76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "https://my-dev-hub.herokuapp.com/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "url": "https://my-dev-hub.herokuapp.com/",
+  "lang": "English",
+  "screenshots": [
+    {
+      "src": "./icons/ss.png",
+      "sizes": "1280x800 750x1334",
+      "type": "image/png"
+    }
+  ]
 }
