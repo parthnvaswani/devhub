@@ -38,11 +38,7 @@
       "type": "image/png"
     }
   ],
-<<<<<<< HEAD
   "start_url": "https://my-dev-hub.herokuapp.com/",
-=======
-  "start_url": "/",
->>>>>>> 4011d9bcc7cc93607d090f07f1cbe80f5f92cce8
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
