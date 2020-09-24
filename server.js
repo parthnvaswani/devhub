@@ -13,6 +13,21 @@ const app = express();
 
 //use helmet for security
 app.use(helmet());
+app.use(
+  helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: [
+        "'self'",
+        "use.fontawesome.com",
+        "code.jquery.com",
+        "cdnjs.cloudflare.com",
+        "stackpath.bootstrapcdn.com",
+      ],
+      styleSrc: ["'self'", "stackpath.bootstrapcdn.com"],
+    },
+  })
+);
 
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
