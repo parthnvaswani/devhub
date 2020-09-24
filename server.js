@@ -24,7 +24,7 @@ app.use(
         "code.jquery.com",
         "cdnjs.cloudflare.com",
         "stackpath.bootstrapcdn.com",
-        "storage.googleapis.co",
+        "storage.googleapis.com",
       ],
       styleSrc: ["'self'", `'unsafe-inline'`, "stackpath.bootstrapcdn.com"],
     },
