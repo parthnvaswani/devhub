@@ -19,12 +19,13 @@ app.use(
       defaultSrc: ["'self'"],
       scriptSrc: [
         "'self'",
+        `'unsafe-inline'`,
         "use.fontawesome.com",
         "code.jquery.com",
         "cdnjs.cloudflare.com",
         "stackpath.bootstrapcdn.com",
       ],
-      styleSrc: ["'self'", "stackpath.bootstrapcdn.com"],
+      styleSrc: ["'self'", `'unsafe-inline'`, "stackpath.bootstrapcdn.com"],
     },
   })
 );
