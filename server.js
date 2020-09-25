@@ -27,6 +27,7 @@ app.use(
         "storage.googleapis.com",
       ],
       styleSrc: ["'self'", `'unsafe-inline'`, "stackpath.bootstrapcdn.com"],
+      imgSrc: ["'self'", `'unsafe-inline'`],
     },
   })
 );
