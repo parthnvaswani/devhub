@@ -13,7 +13,7 @@ const app = express();
 
 //use helmet for security
 app.use(helmet());
-app.use(helmet.contentSecurityPolicy());
+app.use(helmet.contentSecurityPolicy({}));
 
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
