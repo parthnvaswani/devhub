@@ -13,24 +13,7 @@ const app = express();
 
 //use helmet for security
 app.use(helmet());
-app.use(
-  helmet.contentSecurityPolicy({
-    directives: {
-      defaultSrc: ["'self'"],
-      scriptSrc: [
-        "'self'",
-        `'unsafe-inline'`,
-        "use.fontawesome.com",
-        "code.jquery.com",
-        "cdnjs.cloudflare.com",
-        "stackpath.bootstrapcdn.com",
-        "storage.googleapis.com",
-      ],
-      styleSrc: ["'self'", `'unsafe-inline'`, "stackpath.bootstrapcdn.com"],
-      "img-src": ["'self'", `'unsafe-inline'`, `'data:'`, "www.gravatar.com"],
-    },
-  })
-);
+app.use(helmet.contentSecurityPolicy());
 
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
