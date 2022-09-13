@@ -1,3 +1,3 @@
 # devhub
 
-visit https://my-dev-hub.herokuapp.com/ to check out website.
+visit https://my-dev-hub.up.railway.app/ to check out website.
